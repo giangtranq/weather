@@ -16,9 +16,9 @@ This project uses daily precipitation data to compare rainfall in Seattle and Ne
 
 ## Data
 - **Source:**
-Seattle datasets: [DATA 5100 weather repository](https://github.com/brian-fischer/DATA-5100/tree/main/weather)
+Seattle datasets: [DATA 5100 weather repository](https://github.com/brian-fischer/DATA-5100/tree/main/weather) <br>
 New York City precipitation data: [NOAA Climate Data Online](https://www.ncei.noaa.gov/cdo-web/search?datasetid=GHCND)
-- **Description:**
+- **Description:** <br>
 The datasets are CSV files containing weather observations. `seattle_rain.csv` has 1,658 daily records from one Seattle station, and `nyc_rain.csv` has 1,826 daily records from the New York City Central Park station. Both cover January 1, 2018, through December 31, 2022. Key columns include station ID (`STATION`), station name (`NAME`), date (`DATE`), and precipitation (`PRCP`). The course also provides `stl_rain.csv` (54,574 records from 44 stations), but this project compares Seattle and New York City.
 
 ## Analysis
