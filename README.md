@@ -15,7 +15,7 @@ This project uses daily precipitation data to compare rainfall in Seattle and Ne
 - `README.md` — Project documentation
 
 ## Data
-- **Source:**
+- **Source:** <br>
 Seattle datasets: [DATA 5100 weather repository](https://github.com/brian-fischer/DATA-5100/tree/main/weather) <br>
 New York City precipitation data: [NOAA Climate Data Online](https://www.ncei.noaa.gov/cdo-web/search?datasetid=GHCND)
 - **Description:** <br>
