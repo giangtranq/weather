@@ -34,10 +34,18 @@ The data preparation is performed in `code/Weather_Data.ipynb`. The steps were:
 **Clean data file:** `data/clean_seattle_nyc_weather.csv` (3,652 rows; columns: `date`, `city`, `precipitation`, `day_of_year`).
 
 ## Analysis
-The analysis will be completed in `code/Weather_Data.ipynb`.
+**Analysis notebook:** The analysis will be completed in `code/Weather_Data.ipynb`.
+
+1. Inspected both datasets, converted dates to datetime, checked for duplicate and missing dates, and retained the date and precipitation columns.
+2. Joined the datasets and reshaped them into tidy format. Filled 190 missing Seattle precipitation values using day-of-year averages.
+3. Created month, year, and rainy-day variables. Calculated descriptive statistics and compared precipitation using line plots, bar plots, and box plots.
+4. Compared monthly mean precipitation and rainy-day proportions using Welch’s t-tests and two-proportion z-tests.
+5. Repeated the rainy-day proportion tests using only observed measurements to assess the effect of imputation.
 
 ## Results
-To be completed after the analysis.
+New York City received more total precipitation over 2018–2022: approximately 270 inches compared with 207 inches in Seattle, including imputed Seattle values. Seattle had precipitation more frequently: approximately 55% of days compared with 38% in NYC. Using only observed Seattle measurements, its rainy-day proportion was approximately 51%.
+
+Seattle was wetter in winter, while NYC had higher mean daily precipitation from March through October. The notebook discusses limitations related to missing data, imputation, and the use of one weather station per city.
 
 ## Author
 Quynh Giang Tran
