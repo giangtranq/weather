@@ -33,7 +33,7 @@ The data preparation is performed in `code/Weather_Data.ipynb`. The steps were:
 7. Verified that no missing values remained and exported the result.
 **Clean data file:** `data/clean_seattle_nyc_weather.csv` (3,652 rows; columns: `date`, `city`, `precipitation`, `day_of_year`).
 
-## Data analysis
+## Analysis
 **Analysis notebook:** The analysis will be completed in `code/Weather_Data.ipynb`.
 
 1. Inspected both datasets, converted dates to datetime, checked for duplicate and missing dates, and retained the date and precipitation columns.
@@ -47,5 +47,8 @@ New York City received more total precipitation over 2018–2022: approximately 
 
 Seattle was wetter in winter, while NYC had higher mean daily precipitation from March through October. The notebook discusses limitations related to missing data, imputation, and the use of one weather station per city.
 
-## Author
+## Authors
 Quynh Giang Tran
+
+## License
+The original code in this repository is licensed under the [MIT License](LICENSE). Third-party datasets remain subject to their source terms.
