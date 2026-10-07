@@ -14,7 +14,7 @@ This project uses daily precipitation data to compare rainfall in Seattle and Ne
 - `requirements.txt` — Dependencies
 - `README.md` — Project documentation
 
-## Data
+## Data source and description
 - **Source:** <br>
 Seattle datasets: [DATA 5100 weather repository](https://github.com/brian-fischer/DATA-5100/tree/main/weather) <br>
 New York City precipitation data: [NOAA Climate Data Online](https://www.ncei.noaa.gov/cdo-web/search?datasetid=GHCND)
@@ -33,7 +33,7 @@ The data preparation is performed in `code/Weather_Data.ipynb`. The steps were:
 7. Verified that no missing values remained and exported the result.
 **Clean data file:** `data/clean_seattle_nyc_weather.csv` (3,652 rows; columns: `date`, `city`, `precipitation`, `day_of_year`).
 
-## Analysis
+## Data analysis
 **Analysis notebook:** The analysis will be completed in `code/Weather_Data.ipynb`.
 
 1. Inspected both datasets, converted dates to datetime, checked for duplicate and missing dates, and retained the date and precipitation columns.
