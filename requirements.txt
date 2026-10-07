@@ -1,4 +1,4 @@
-# Core
+# Data analysis
 numpy
 pandas
 
@@ -6,13 +6,11 @@ pandas
 matplotlib
 seaborn
 
-
-# Machine Learning
-scikit-learn
+# Statistical tests
+scipy
 statsmodels
 
-
 # Jupyter & Development
-jupyter
+jupyterlab
 notebook
 ipython
